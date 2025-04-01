@@ -1,12 +1,12 @@
 POST  http://localhost:3000/api/services
 Content-Type: application/json
 
-{
-    "name": "algum serviço 2",
-    "description": "alguma descrição",
-    "price": 1600,
-    "image": "https://plus.unsplash.com/premium_photo-1716138192476-f34e85ad43c2?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-}
+ {
+      "name": "Decoração",
+      "description": "Escolha a decoração para sua festa, e nós a montamos.",
+      "price": 1400,
+      "image": "https://images.unsplash.com/photo-1478146059778-26028b07395a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80"
+    }
 
 ###
 GET http://localhost:3000/api/services
@@ -17,18 +17,18 @@ GET http://localhost:3000/api/services/67447ce2925cbb4f9e553e72
 
 
 ###
-DELETE http://localhost:3000/api/services/67447ce2925cbb4f9e553e72
+DELETE http://localhost:3000/api/services/674631dd53d8d7ccb5dddc82
 
 
 ###
-put  http://localhost:3000/api/services/6740ae1fc62e30617263eea0
+put  http://localhost:3000/api/services/6746331853d8d7ccb5dddcb7
 Content-Type: application/json
 
 {
     "name": "testando atualização",
     "description": "alguma descrição",
     "price": 2050,
-    "image": "https://plus.unsplash.com/premium_photo-1716138192476-f34e85ad43c2?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "image": "https://images.unsplash.com/photo-1731796603747-409787efd360?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 }
 
 
@@ -42,20 +42,13 @@ Content-Type: application/json
     "author": "Davi",
     "description": "Uma festa de aniversário",
     "budget": 6000,
-    "image": "https://plus.unsplash.com/premium_photo-1716138192476-f34e85ad43c2?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image": "https://images.unsplash.com/photo-1731796603747-409787efd360?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "services": [
-        {
-            "name": "Algum serviço 1",
-            "description": "alguma descrição",
-            "price": 3000,
-            "image": "https://plus.unsplash.com/premium_photo-1716138192476-f34e85ad43c2?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        },
-
         {
             "name": "algum serviço 2",
             "description": "alguma descrição",
             "price": 1600,
-            "image": "https://plus.unsplash.com/premium_photo-1716138192476-f34e85ad43c2?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            "image": "https://images.unsplash.com/photo-1731796603747-409787efd360?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         }
     ]
 }
@@ -66,15 +59,15 @@ GET http://localhost:3000/api/parties
 
 ###
 
-GET  http://localhost:3000/api/parties/6745167816df0bcff0ad3330
+GET  http://localhost:3000/api/parties/6746332153d8d7ccb5dddcb9
 
 
 ###
-DELETE http://localhost:3000/api/parties/6745167816df0bcff0ad3330
+DELETE http://localhost:3000/api/parties/674e04bbd108710350687b6f
 
 
 ###
-put http://localhost:3000/api/parties/6744f3dcd42a632f1a8bf667
+put http://localhost:3000/api/parties/6746332153d8d7ccb5dddcb9
 
 Content-Type: application/json
 
@@ -83,20 +76,13 @@ Content-Type: application/json
     "author": "Telma",
     "description": "Uma festa de aniversário",
     "budget": 6000,
-    "image": "https://plus.unsplash.com/premium_photo-1716138192476-f34e85ad43c2?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image": "https://images.unsplash.com/photo-1731796603747-409787efd360?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "services": [
-        {
-            "name": "Algum serviço 1",
-            "description": "alguma descrição",
-            "price": 3000,
-            "image": "https://plus.unsplash.com/premium_photo-1716138192476-f34e85ad43c2?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        },
-
         {
             "name": "algum serviço 2",
             "description": "alguma descrição",
             "price": 1600,
-            "image": "https://plus.unsplash.com/premium_photo-1716138192476-f34e85ad43c2?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            "image": "https://images.unsplash.com/photo-1731796603747-409787efd360?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         }
     ]
 }
